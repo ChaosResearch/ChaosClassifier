@@ -28,9 +28,9 @@ pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --e
 pip install scikit-learn
 ```
 
-The download link for the test dataset is [[BaiduNetdisk]](https://pan.baidu.com/s/1RpBUD-2l-PlqYMZqxDTW0Q?pwd=ncan). Please place the dataset in the data folder.
-
 ## Evaluation
+The download link for the test dataset is [[BaiduNetdisk]](https://pan.baidu.com/s/1RpBUD-2l-PlqYMZqxDTW0Q?pwd=ncan) and [[Google]](https://drive.google.com/drive/folders/1XzJxXczXL85JNHC2J9DhpH2hH1-IzDH_?usp=drive_link). Please place the dataset in the data folder.
+
 To evaluate a pre-trained model on test dataset with GPUs run:
 ```
 python test.py
